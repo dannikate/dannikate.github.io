@@ -276,29 +276,77 @@ nav {
 
 /* Coding Projects section of Portfolio 
 --------------------------------------------------- */
+.cod-proj {
+    display: flex;
+}
 .code-list {
-    padding-left: 10%;
-    padding-right: 10%;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.code-card {
+    position: relative;
+    max-width: 400px;
+    height: 225px;
+    margin: 30px 10px;
+    /* padding: 20px 15px; */
+    display: flex;
+    flex-direction: column;
+    background: #22223B; 
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+.code-card:hover {
+    height: 400px;
+}
+/*.code-img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -50px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}*/
+.code-img img {
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    border-radius: 15px;
+}
+.code-title {
+    font-family: Jost, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #C9ADA7;
+}
+.code-details {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: none;
+    text-align: center;
+    color: #F2E9E4;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+.code-card:hover .code-details {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.5s;
 }
 
-.portfolio .code-proj {
-    color: #F2E9E4;
-    font-family: 'Libre Franklin', sans-serif;
-    align-items: center center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-    padding: 20px;
-    grid-gap: 40px;
-    /* display: flex; justify-content: space-between; */
-}
-.portfolio .code-proj img {
-    width: 100%;
-    border-radius: 12px;
-    border-style: solid 1px #F2E9E4;
-    object-fit: cover;
-    width: 380px;
-    height: auto;
-}
 
 
 /* Contact section (includes social icons & footer)
