@@ -1,5 +1,5 @@
 # Dannika
-The latest iteration of my personal website (v1.1)
+The latest iteration of my personal website (v1.2)
 
 ## 🎨 Color Palette 
 
