@@ -168,27 +168,6 @@ nav {
     list-style: none;
 }
 
-/* Code section of Portfolio
---------------------------------------------------- */
-.portfolio .code-proj {
-    color: #F2E9E4;
-    font-family: 'Libre Franklin', sans-serif;
-    align-items: center center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-    padding: 20px;
-    grid-gap: 40px;
-    /* display: flex; justify-content: space-between; */
-}
-.portfolio .code-proj img {
-    width: 100%;
-    border-radius: 12px;
-    border-style: solid 1px #F2E9E4;
-    object-fit: cover;
-    width: 380px;
-    height: auto;
-}
-
 /* Article section of Portfolio 
 --------------------------------------------------- */
 .article-list {
@@ -280,6 +259,45 @@ nav {
     background-color: #F2E9E4;
     border-radius: 25px;
     display: inline-block;
+}
+
+/* Production section of Portfolio 
+--------------------------------------------------- */
+.production-list ul li {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.production-title {
+    font-family: Jost, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #C9ADA7;
+} 
+
+/* Coding Projects section of Portfolio 
+--------------------------------------------------- */
+.code-list {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.portfolio .code-proj {
+    color: #F2E9E4;
+    font-family: 'Libre Franklin', sans-serif;
+    align-items: center center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+    /* display: flex; justify-content: space-between; */
+}
+.portfolio .code-proj img {
+    width: 100%;
+    border-radius: 12px;
+    border-style: solid 1px #F2E9E4;
+    object-fit: cover;
+    width: 380px;
+    height: auto;
 }
 
 
