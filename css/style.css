@@ -186,7 +186,7 @@ nav {
     display: flex;
     position: relative;
     flex-direction: column;
-    height: 450px;
+    height: 375px;
     width: 400px;
     min-width: 250px;
     padding: 1.5rem;
@@ -303,15 +303,6 @@ nav {
 .code-card:hover {
     height: 400px;
 }
-/*.code-img {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    top: -50px;
-    left: 20px;
-    z-index: 1;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-}*/
 .code-img img {
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -359,6 +350,7 @@ nav {
     text-align: left;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 16px;
+    font-weight: 300;
     color: #F2E9E4;
 }
 .contact ul li {
@@ -371,10 +363,10 @@ nav {
 .contact-icons {
     text-align: center;
 }
-
 .footer p {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 14px;
+    font-weight: 200;
     font-style: italic;
     color: #F2E9E4;
     text-align: center;
@@ -466,6 +458,7 @@ h1 {
 h2 {
     font-family: Jost, sans-serif;  
     font-size: 24px;
+    font-weight: 500;
     font-style: italic;
     text-align: left;
     color: #9A8C98;
