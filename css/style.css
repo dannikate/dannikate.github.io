@@ -302,6 +302,7 @@ nav {
 }
 .code-card:hover {
     height: 400px;
+    border-radius: 15px;
 }
 .code-img img {
     z-index: 1;
@@ -319,6 +320,8 @@ nav {
     position: relative;
     margin-top: -140px;
     padding: 10px 15px;
+
+    border-radius: 15px;
 
     font-family: 'Libre Franklin', sans-serif;
     font-size: 16px;
