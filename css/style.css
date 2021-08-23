@@ -178,10 +178,18 @@ nav {
     color: white;
     font-family: 'Libre Franklin', sans-serif;
 }
+
+/* scrollbar to navigate through articles horizontally */
 .article-list::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
+.article-list::-webkit-scrollbar-thumb {
+    background: #9A8C98;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #22223B;
+}
+
 .card {
     display: flex;
     position: relative;
