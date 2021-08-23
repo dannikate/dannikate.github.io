@@ -7,6 +7,20 @@
     background-color: #22223B;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #22223B
+}
+::-webkit-scrollbar-thumb {
+    background: #C9ADA7;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #F2E9E4;
+}
 
 /* Navigation Bar (incl. short intro & scroll up btn)
 --------------------------------------------------- */
