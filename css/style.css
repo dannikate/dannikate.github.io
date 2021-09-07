@@ -523,5 +523,7 @@ td {
 }
 .highlight-txt {
     font-family: Jost, sans-serif;
-    text-decoration: #9A8C98 wavy underline; 
+    font-size: 18px;
+    font-weight: 500;
+    /* text-decoration: #9A8C98 wavy underline;  */
 }
