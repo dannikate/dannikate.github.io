@@ -5,7 +5,7 @@
 <h1 align="center">Dannika</h1>
 
 ## 🌟 v1.3, 9-2021
-The latest iteration of my personal website. View it [here](https://dannikate.github.io/Dannika/)
+The latest iteration of my personal website. View it [here.](https://dannikate.github.io/Dannika/)
 
 <p align="center">
 <img src="assets/img/preview.png">
