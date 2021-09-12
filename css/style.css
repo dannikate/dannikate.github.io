@@ -289,6 +289,7 @@ nav {
 
 /* Production section of Portfolio 
 --------------------------------------------------- */
+/*
 .production-list ul li {
     padding-left: 10%;
     padding-right: 10%;
@@ -299,6 +300,86 @@ nav {
     font-weight: 500;
     color: #C9ADA7;
 } 
+*/
+.production-list {
+    width: 100%;
+    height: 50vh; 
+    /* background: #C9ADA7; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.prod-box {
+    width: 80%;
+    background: #9A8C98;
+    max-width: 800px;
+    min-width: 400px;
+    height: 275px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
+    position: relative;
+    overflow: hidden;
+}
+.prod-card {
+    height: 275px;
+    padding: 40px;
+    color: #9A8C98;
+    line-height: 22px;
+    box-sizing: border-box;
+    background: #9A8C98;
+    position: relative;
+}
+.prod-details {
+    display: flex;
+    background: #9A8C98;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.prod-details h3 {
+    font-family: Jost, sans-serif;
+    font-size: 26px;
+    color: #22223B;
+    background: #9A8C98;
+    padding-bottom: 8px;
+}
+.prod-details p {
+    font-family: Jost, sans-serif;
+    font-style: italic;
+    color: #22223B;
+    background: #9A8C98;
+    padding-left: 5%;
+}
+#slide {
+    width: 100%;
+    padding-right: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.sidebar {
+    width: 50px;
+    height: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    background: #22223B;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar img {
+    width: 25px;
+    padding: 5px;
+    background: #22223B;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
 /* Coding Projects section of Portfolio 
 --------------------------------------------------- */
