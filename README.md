@@ -5,7 +5,7 @@
 <h1 align="center">Dannika</h1>
 
 ## 🌟 v1.3, 9-2021
-The latest iteration of my personal website. Written in HTML, CSS, and JavaScript. View it [here.](https://dannikate.github.io/Dannika/)
+The latest iteration of my personal website. Written in HTML, CSS, and JavaScript. Check it out [here.](https://dannikate.github.io/Dannika/)
 
 <p align="center">
 <img src="assets/img/preview.png">
