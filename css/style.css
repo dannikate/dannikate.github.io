@@ -315,14 +315,14 @@ nav {
     background: #9A8C98;
     max-width: 800px;
     min-width: 400px;
-    height: 275px;
+    height: 325px;
     border-radius: 10px;
     box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
 }
 .prod-card {
-    height: 275px;
+    height: 325px;
     padding: 40px;
     color: #9A8C98;
     line-height: 22px;
@@ -333,7 +333,7 @@ nav {
 .prod-details {
     display: flex;
     background: #9A8C98;
-    align-items: center;
+    align-items: center; 
     margin-bottom: 40px;
 }
 .prod-details h3 {
@@ -346,6 +346,7 @@ nav {
 .prod-details p {
     font-family: Jost, sans-serif;
     font-style: italic;
+    font-size: 15px;
     color: #22223B;
     background: #9A8C98;
     padding-left: 5%;

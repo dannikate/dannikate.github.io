@@ -54,14 +54,14 @@ downArrow.onclick = function() {
 
 function slideUp() {
     if ( x < 0) {
-        x = x + 275; //because height is 300px
+        x = x + 325; //because height is 300px
     slide.style.top = x + "px";
     }
 }
 
 function slideDown() {
-    if ( x > "-1100") {
-        x = x - 275; //because height is 300px
+    if ( x > "-1300") {
+        x = x - 325; //because height is 300px
     slide.style.top = x + "px";
     }
 }
