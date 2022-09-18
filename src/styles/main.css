@@ -9,6 +9,11 @@
     font-family: 'Libre Franklin', sans-serif;
 }
 
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
 .about {
     width: 80%;
     margin: auto;
@@ -52,30 +57,36 @@
 }
 
 .papers {
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 30px;
 }
 
 .articles {
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 30px;
 }
 
 .productions {
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 30px;
 }
 
 .code {
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 30px;
 }
 
 .contact {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.footer {
     width: 80%;
     margin: auto;
     padding: 30px;
