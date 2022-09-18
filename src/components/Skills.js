@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Skills() {
     return (
-        <div>
+        <div className="skills">
             <h2>/ skills & competencies</h2>
             <h3>software</h3>
             <ul>

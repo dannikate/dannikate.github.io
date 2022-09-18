@@ -6,7 +6,7 @@ import Code from "./Code"
 
 export default function Portfolio() {
     return (
-        <div>
+        <div className="portfolio">
             <h2>/ portfolio</h2>
             <Articles />
             <Papers />
