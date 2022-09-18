@@ -3,7 +3,8 @@ import React from "react"
 export default function Productions() {
     return (
         <div>
-            <h1>Productions section</h1>
+            <h3>> productions</h3>
+            <p>(insert list of productions here)</p>
         </div>
     )
 }

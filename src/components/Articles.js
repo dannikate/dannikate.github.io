@@ -3,7 +3,8 @@ import React from "react"
 export default function Articles() {
     return (
         <div>
-            <h1>Articles here</h1>
+            <h3> > articles </h3>
+            <p>(insert carousel of articles here)</p>
         </div>
     )
 }

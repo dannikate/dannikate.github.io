@@ -3,7 +3,8 @@ import React from "react"
 export default function Code() {
     return (
         <div>
-            <h1>Code projects here</h1>
+            <h3>> code</h3>
+            <p>(insert list of code projects here)</p>
         </div>
     )
 }
