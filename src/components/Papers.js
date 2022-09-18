@@ -5,7 +5,7 @@ export default function Papers() {
         <div>
             <h2>/ papers</h2>
             <ul>
-                <li>Exploring the Relationship Between Susceptibility to Misinformation and Attitudes Towards Local Politics.</li>
+                <li>Exploring the Relationship Between Susceptibility to Misinformation and Attitudes Towards Local Politics</li>
                     <ul>
                         <li>August 2021 - December 2021</li>
                         <li>Collaborator: Maxon William</li>
