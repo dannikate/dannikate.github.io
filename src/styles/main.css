@@ -6,4 +6,77 @@
     padding: 0; 
     background-color: #22223B;
     color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.skills {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.experience {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.education {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.recognition {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.certifications {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.portfolio {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.papers {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.articles {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.productions {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.code {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
 }
