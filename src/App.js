@@ -11,7 +11,12 @@ export default function App() {
     return (
         <div>
             <h1>Hi! This is loading from App.</h1>
-            <Main />
+            <About />
+            <Skills />
+            <Experience /> 
+            <Recognition />
+            <Portfolio />
+            <Contact />
         </div>
     )
 }
