@@ -4,14 +4,55 @@ import Papers from "./Papers"
 import Productions from "./Productions"
 import Code from "./Code"
 
-export default function Portfolio() {
+import articleList from "../data/articles-list"
+import papersList from "../data/papers-list"
+import productionList from "../data/productions-list"
+import codeProjects from "../data/code-projects"
+
+export default function Portfolio(props) {
+    const articles = articleList.map(info => {
+        return (
+            <Articles 
+            key={info.id}
+            {...info}
+            />
+        )
+    })
+
+    const papers = papersList.map(info => {
+        return (
+            <Papers 
+            key={info.id}
+            {...info}
+            />
+        )
+    })
+
+    const productions = productionList.map(info => {
+        return (
+            <Productions
+            key={info.id}
+            {...info}
+        />
+        )
+    })
+
+    const codes = codeProjects.map(info => {
+        return (
+            <Code
+            key={info.id}
+            {...info}
+            />
+        )
+    })
+
     return (
         <div className="portfolio">
             <h2>/ portfolio</h2>
-            <Articles />
-            <Papers />
-            <Productions />
-            <Code />
+            <section>{articles}</section>
+            <section>{papers}</section>
+            <section>{productions}</section>
+            <section>{codes}</section>
         </div>
     )
 }
