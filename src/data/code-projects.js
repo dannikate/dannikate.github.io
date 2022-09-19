@@ -1,0 +1,32 @@
+export default [
+    {
+        id: 1,
+        title: "Turtle Maze Game", 
+        year: "2019",
+        language: "Java",
+        collaborators: "",
+        description: "A simple maze game inspired by popular PC and mobile games, which include Feeding Frenzy, Pac-Man, and Temple Run. It takes on an educational approach in its purpose to simulate a sea turtle's navigation in a polluted environment, calling attention the ongoing pollution problem and its detrimental effects on ocean life.",
+        image: "",
+        link: "",
+    },
+    {
+        id: 2,
+        title: "Rustan's Database", 
+        year: "2019",
+        language: "SQL, MS Access",
+        collaborators: "Meryll Cruz",
+        description: "A mini relational database using Microsoft Access for a local business. This database was designed to be user-friendly for employees, which includes the following features to access, input, and organize their business data: forms, reports, and SQL queries.",
+        image: "",
+        link: "",
+    },
+    {
+        id: 3,
+        title: "FlappyCrew", 
+        year: "2020",
+        language: "Python",
+        collaborators: "Meryll Cruz",
+        description: "A twist on the popular mobile games, Flappy Bird and Among Us. This game extends the Among Us storyline--post ejection from the space ship--and implements the Flappy Bird gameplay--avoiding space debris as a last chance of survival.",
+        image: "",
+        link: "",
+    },
+]
