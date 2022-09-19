@@ -1,10 +1,14 @@
 import React from "react"
 
-export default function Code() {
+export default function Code(props) {
     return (
         <div className="code">
-            <h3>> code</h3>
-            <p>(insert list of code projects here)</p>
+            <h4>{props.title}</h4>
+            { /* TODO: update as a list*/ }
+            <p>{props.year}</p>
+            <p>{props.language}</p>
+            <p>{props.description}</p>
+            <a href={props.link}>Source Code</a>
         </div>
     )
 }
