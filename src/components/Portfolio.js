@@ -49,10 +49,22 @@ export default function Portfolio(props) {
     return (
         <div className="portfolio">
             <h2>/ portfolio</h2>
-            <section>{articles}</section>
-            <section>{papers}</section>
-            <section>{productions}</section>
-            <section>{codes}</section>
+            <section>
+                <h3> > articles</h3>
+                {articles}
+            </section>
+            {/* <section>
+                <h3> > papers</h3>
+                {papers}
+            </section> */}
+            <section>
+                <h3> > productions</h3>
+                {productions}
+            </section>
+            <section>
+                <h3> > code projects</h3>
+                {codes}
+            </section>
         </div>
     )
 }

@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "Kho fosters change for protecting the environment", 
-        pubishDate: "Nov 2019",
+        publishDate: "Nov 2019",
         publication: "Triton's Call",
         link: "https://tritonscall.com/kho-fosters-change-for-protecting-the-environment/"
     },
