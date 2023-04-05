@@ -17,8 +17,8 @@ export default function App() {
             <Skills />
             <Experience /> 
             <Education />
-            <Recognition />
             <Certification />
+            <Recognition />
             <Portfolio />
             <Contact />
             <Footer />
