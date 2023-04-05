@@ -11,7 +11,7 @@ export default function Experience() {
                     <li>Led training sessions for the information management team and provided guidance for digital assistant.</li>
                     <li>Managed and oversaw edits created by digital assistant and members of the information management team to the institution's websites.</li>
                    </ul>
-                <li>June 2021 — Current · Research Assistant I @ the Water & Environmental Research Institute of the Western Pacific, University of Guam. tasks include: </li>
+                <li>June 2021 — March 2022 · Research Assistant I @ the Water & Environmental Research Institute of the Western Pacific, University of Guam. tasks include: </li>
                     <ul>
                         <li>Designed web page layouts and content, emphasizing ease of usability and accessibility of information for users, clients, and partners.</li>
                         <li>Organized and made information available for public viewing.</li>
