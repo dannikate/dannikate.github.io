@@ -91,3 +91,11 @@ h1 {
     margin: auto;
     padding: 30px;
 }
+
+.section-header {
+    color: #c9ada7;
+}
+
+.section-sub-header {
+    color: #9a8c98;
+}
