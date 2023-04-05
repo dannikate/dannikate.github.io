@@ -5,7 +5,7 @@ export default function Skills() {
         <div className="skills">
             <h2 className="section-header">/ skills & competencies</h2>
             <div className="skills--software">
-            <h3>software</h3>
+            <h3 className="section-sub-header">software</h3>
                 <ul>
                     <li>Premiere Pro</li>
                     <li>After Effects</li>
@@ -17,7 +17,7 @@ export default function Skills() {
                 </ul>
             </div>
             <div className="skills--technologies">
-                <h3>technologies</h3>
+                <h3 className="section-sub-header">technologies</h3>
                 <ul>
                     <li>Java</li>
                     <li>Python</li>

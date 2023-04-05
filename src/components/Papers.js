@@ -3,7 +3,7 @@ import React from "react"
 export default function Papers() {
     return (
         <div className="papers">
-            <h3>> papers</h3>
+            <h3 className="section-sub-header">> papers</h3>
             <ul>
                 <li>Exploring the Relationship Between Susceptibility to Misinformation and Attitudes Towards Local Politics</li>
                     <ul>

@@ -3,7 +3,7 @@ import React from "react"
 export default function Experience() {
     return (
         <div className="experience">
-            <h2>/ experience</h2>
+            <h2 className="section-header">/ experience</h2>
             <ul>
                 <li>March 2022 — Current · Research Assistant II @ the Water & Environmental Research Institute of the Western Pacific, University of Guam. </li>
                    <ul>
