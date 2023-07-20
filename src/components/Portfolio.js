@@ -50,7 +50,7 @@ export default function Portfolio(props) {
         <div className="portfolio">
             <h2 className="section-header">/ portfolio</h2>
             <section>
-                <h3 className="section-sub-header"> `&gt;` articles</h3>
+                <h3 className="section-sub-header"> &gt; articles</h3>
                 {articles}
             </section>
             {/* <section>
@@ -58,11 +58,11 @@ export default function Portfolio(props) {
                 {papers}
             </section> */}
             <section>
-                <h3 className="section-sub-header"> `&gt;` productions</h3>
+                <h3 className="section-sub-header"> &gt; productions</h3>
                 {productions}
             </section>
             <section>
-                <h3 className="section-sub-header"> `&gt;` code projects</h3>
+                <h3 className="section-sub-header"> &gt; code projects</h3>
                 {codes}
             </section>
         </div>
