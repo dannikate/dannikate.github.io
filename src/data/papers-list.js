@@ -8,5 +8,25 @@ export default [
         keywords: "",
         presentations: "Presented at the 43rd Annual Research Conference (ARC) for the College of Liberal Arts and Social Sciences at the University of Guam on March 11, 2022. ", 
         link: ""
-    }
+    },
+    {
+        id: 2,
+        title: "",
+        date: "",
+        collaborators: "",
+        abstract: "",
+        keywords: "",
+        presentations: "",
+        link: ""
+    },
+    {
+        id: 3,
+        title: "",
+        date: "",
+        collaborators: "",
+        abstract: "",
+        keywords: "",
+        presentations: "",
+        link: ""
+    },
 ]
