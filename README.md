@@ -4,7 +4,7 @@
 
 <h1 align="center">Dannika</h1>
 
-## 🌟 v1.3, 9-2021
+## 🌟 v1.4, 2023.09
 The latest iteration of my personal website. Written in HTML, CSS, and JavaScript. Check it out [here](https://dannikate.github.io/Dannika/).
 
 <p align="center">
