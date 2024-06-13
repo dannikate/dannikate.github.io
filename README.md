@@ -1,14 +1,14 @@
 <p align="center">
-    <img src="assets/favicon_io/apple-touch-icon.png">
+    <img src="./src/assets/favicon_io/apple-touch-icon.png">
 </p>
 
 <h1 align="center">Dannika</h1>
 
-## 🌟 v1.4, 2023.09
+## 🌟 v1.4, 2024.06
 The latest iteration of my personal website. Written in HTML, CSS, and JavaScript. Check it out [here](https://dannikate.github.io/Dannika/).
 
 <p align="center">
-<img src="assets/img/preview.png">
+<img src="./src/assets/imgs/">
 </p>
 
 ## 🎨 Color Palette 
