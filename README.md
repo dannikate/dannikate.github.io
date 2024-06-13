@@ -8,7 +8,7 @@
 The latest iteration of my personal website. Written in HTML, CSS, and JavaScript. Check it out [here](https://dannikate.github.io/Dannika/).
 
 <p align="center">
-<img src="./src/assets/imgs/">
+<img src="./src/assets/imgs/landing/preview_v1.4.png">
 </p>
 
 ## 🎨 Color Palette 
