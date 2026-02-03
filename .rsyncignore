@@ -1,0 +1,5 @@
+private/
+*.md
+*.tmp
+.github/
+.git/
