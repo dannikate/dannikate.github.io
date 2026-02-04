@@ -17,7 +17,7 @@ document.getElementById("app").innerHTML = /*html*/
     <div class="card-body">
         <div class="spacer"></div>
         <h5 class="card-title">Hi, I'm Dannika</h5>
-        <p class="card-text">I'm a graduate from the University of Guam, where I studied Computer Science and Communication. Currently, I work as a Research Assistant III at the Water and Environmental Research Institute of the Western Pacific (WERI). An aspiring developer with great interests in data visualization, creative coding, and human-computer interaction.</p>
+        <p class="card-text">I'm a graduate from the University of Guam, where I studied Computer Science and Communication. Currently, I work as a Research Assistant at the Water and Environmental Research Institute of the Western Pacific (WERI). I'm an aspiring developer with great interests in data visualization, creative coding, and human-computer interaction.</p>
         <div class="spacer"></div>
         <div class="btn-group" role="group" aria-label="contact">
             <a href="mailto:dannikavalerio@gmail.com" class="btn btn-primary" role="button" data-bs-toggle="popover"  data-bs-placement="top" data-bs-title="Say hi!">
