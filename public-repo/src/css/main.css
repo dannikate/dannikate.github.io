@@ -1,0 +1,46 @@
+/* fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-space-cadet: #22223B;
+    --color-independence: #4A4E69;
+    --color-heliotrope-gray: #9A8C98;
+    --color-silver-pink: #C9ADA7;
+    --color-isabelline: #F2E9E4;
+}
+
+body {
+    background-color: var(--color-space-cadet);
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 250px;
+}
+
+#container {
+    min-width: 450px;
+}
+
+p {
+    color: var(--color-space-cadet);
+}
+
+.tiny-text {
+    font-size: 13px;
+    font-style: italic;
+    color: #7C81A2;
+}
+
+.tinier-text {
+    font-size: 12px;
+    font-style: italic;
+    color: #7C81A2;
+}
+
+.spacer {
+    height: 20px;
+}
